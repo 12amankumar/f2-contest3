@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.main-container{
+    background: rgb(172, 238, 18);
+    height: 600px;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 100px;
+}
+
+#name,#email,#password,#confirm{
+    height: 30px;
+    width: 400px;
+    border-radius: 9px;
+    font-size: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 39%;
+    margin-top: 40px;
+    border-radius: 9px;
+    background: rgb(67, 4, 104);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+
+}
+h2{
+  font-size: 40px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    padding-top: 20px;
+}
+textarea{
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+     cursor: pointer;
+}
+    
+.span{
+    display: block;
+    margin-left: 50px;
+    font-size: 20px;
+    color:red;
+    font-weight: bold;
+
+}
